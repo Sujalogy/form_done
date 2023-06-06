@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const { CURSOR_FLAGS } = require('mongodb');
 const { blacklist } = require("../blacklist.lgot")
 require("dotenv").config();
 const secretKey = process.env.Secret;
